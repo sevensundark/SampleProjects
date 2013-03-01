@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.viewport {
+    width: 310px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.flipsnap {
+    width: 930px; /* 320px(item width) * 3(item count) */
+}
+
+.item {
+    float: left;
+    width: 300px;
+    font-size: 50px;
+    text-align: center;
+    padding: 50px 0;
+    background: #EFEFEF;
+    border: 5px solid #999;
+    color: #666;
+}
