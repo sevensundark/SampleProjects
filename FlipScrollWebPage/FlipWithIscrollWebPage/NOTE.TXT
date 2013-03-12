@@ -1,0 +1,7 @@
+1.filingIscrollWithSnap IS the sample page by using default js package.
+
+2.filingIscrollWithCustomSnap is some modify on default js. (Add the property: "default page")
+
+modify notices:
+‡@ Add defaultPage on [flipsnap_custom.js]
+‡A add transform on html:  <div class="flipsnap" style="position:relative;-webkit-transform:translate(' + position + '%,0);"> 
