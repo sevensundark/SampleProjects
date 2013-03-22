@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE components PUBLIC "-//SEASAR//DTD S2Container 2.4//EN"
+    "http://www.seasar.org/dtd/components24.dtd">
+<components>
+	<!-- ログ出力用のコンポーネント -->
+	<component name="traceInterceptor" class="org.seasar.framework.aop.interceptors.TraceInterceptor" />
+	<component name="aopOriginalSample" class="seasar2.aop.AopOriginalSample" />
+	
+	<!--　AOPログのコンポーネントの登録 -->
+	<component name="AopOriginalService" class="seasar2.aop.AopOriginalServiceImpl">
+		<aspect>aopOriginalSample</aspect>
+	</component>
+</components>
